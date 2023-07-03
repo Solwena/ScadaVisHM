@@ -7,6 +7,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="297mm"
@@ -554,6 +555,55 @@
          stop-color="#25702f"
          offset="1" />
     </linearGradient>
+    <radialGradient
+       cx="120"
+       cy="170"
+       r="100"
+       fx="120"
+       fy="170"
+       id="radialGradient3165"
+       xlink:href="#linearGradient3159"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0,-0.59870787,1.6914443,0,1221.4203,321.95598)" />
+    <linearGradient
+       id="linearGradient3159">
+      <stop
+         id="stop3163"
+         style="stop-color:#000000;stop-opacity:0"
+         offset="0">
+        <animate
+           id="a1"
+           attributeName="stop-opacity"
+           values="0;0.5;0"
+           dur="2s"
+           repeatCount="indefinite" />
+      </stop>
+      <stop
+         id="stop3161"
+         style="stop-color:#000000;stop-opacity:0.5"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3030"
+       id="linearGradient7609"
+       gradientUnits="userSpaceOnUse"
+       x1="120"
+       y1="10"
+       x2="120"
+       y2="50"
+       gradientTransform="matrix(0.84572216,0,0,0.8232233,1407.4792,182.00806)" />
+    <linearGradient
+       id="linearGradient3030">
+      <stop
+         id="stop3032"
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop3034"
+         style="stop-color:#ffffff;stop-opacity:0"
+         offset="1" />
+    </linearGradient>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -563,15 +613,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.6381307"
-     inkscape:cx="538.58443"
-     inkscape:cy="603.44249"
+     inkscape:cx="524.15117"
+     inkscape:cy="627.86057"
      inkscape:document-units="mm"
      inkscape:current-layer="layer2"
      showgrid="true"
      units="mm"
      inkscape:window-width="2400"
      inkscape:window-height="1271"
-     inkscape:window-x="2391"
+     inkscape:window-x="4791"
      inkscape:window-y="-9"
      inkscape:window-maximized="1">
     <inkscape:grid
@@ -591,7 +641,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -6573,6 +6623,51 @@
            cx="50"
            style="fill:#1a1a1a" />
       </g>
+    </g>
+    <g
+       id="g10202"
+       transform="matrix(0.16712843,0,0,0.16712843,-112.73895,-22.801281)"
+       inkscape:label="{&quot;attr&quot;:&quot;clone&quot;,&quot;map&quot;:[&quot;%n=STOP_BUTTON&quot;]}">
+      <rect
+         style="fill:#ff0000;stroke:none;stroke-width:0.8343969"
+         id="ButtonBase"
+         y="190.2403"
+         x="1415.9364"
+         ry="32.928932"
+         height="65.857864"
+         width="186.05887"
+         inkscape:label="{&quot;attr&quot;:&quot;color&quot;,&quot;list&quot;:[{&quot;data&quot;:&quot;0&quot;,&quot;param&quot;:&quot;red|&quot;,&quot;tag&quot;:&quot;%n&quot;},{&quot;data&quot;:&quot;1&quot;,&quot;param&quot;:&quot;green|&quot;,&quot;tag&quot;:&quot;%n&quot;}]}">
+        <!--
+      <animate id="aWidth" attributeName="width" from="80" to="220" dur="3s"/>
+      <animate id="aX"     attributeName="x"     from="80" to="10"  dur="3s"/>
+      <animateColor attributeName="fill" values="red;blue;red" dur="12s" repeatCount="indefinite"/>
+      -->
+      </rect>
+      <rect
+         style="fill:url(#radialGradient3165);stroke:none;stroke-width:0.8343969"
+         id="ButtonGlow"
+         y="190.24028"
+         x="1415.9364"
+         ry="32.928932"
+         height="65.857864"
+         width="186.05887" />
+      <path
+         style="fill:url(#linearGradient7609);stroke-width:0.8343969"
+         id="ButtonHighlight"
+         d="m 1449.7653,194.35641 h 118.4011 c 9.3706,0 19.0429,8.98467 16.9145,16.46447 -1.5514,5.45178 -7.5439,4.11611 -16.9145,4.11611 h -118.401 c -9.3707,0 -15.3632,1.33569 -16.9145,-4.11611 -2.1284,-7.4798 7.5438,-16.46447 16.9144,-16.46447 z"
+         inkscape:connector-curvature="0" />
+      <text
+         transform="scale(1.013573,0.98660876)"
+         x="1489.1381"
+         y="235.55893"
+         id="text3194"
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.37599945px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;stroke:none;stroke-width:0.8343969"
+         inkscape:label="{&quot;attr&quot;:&quot;popup&quot;,&quot;height&quot;:400,&quot;src&quot;:&quot;block&quot;,&quot;width&quot;:500,&quot;x&quot;:100,&quot;y&quot;:100},{&quot;attr&quot;:&quot;text&quot;,&quot;map&quot;:[&quot;0=STOP&quot;,&quot;1=START&quot;],&quot;tag&quot;:&quot;%n&quot;}"><tspan
+           x="1489.1381"
+           y="235.55893"
+           id="tspan3196"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.37599945px;font-family:Calibri;-inkscape-font-specification:'Calibri, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;stroke-width:0.8343969">%s</tspan></text>
     </g>
   </g>
 </svg>
